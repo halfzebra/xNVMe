@@ -11,6 +11,7 @@ struct xnvme_queue_iou {
 
 	uint8_t poll_io;
 	uint8_t poll_sq;
+	uint8_t ioctl_ring;
 
 	uint8_t _rsvd[61];
 };
